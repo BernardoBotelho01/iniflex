@@ -25,7 +25,6 @@ public class Principal {
                 new Funcionario("Helena", LocalDate.of(1996, 9, 2), new BigDecimal(2009.44), "Operador")
 
         ));
-// Removendo o João
 
         System.out.println("\n------------Lista de Funcionarios------------\n");
         funcionarios.forEach(System.out::println);
