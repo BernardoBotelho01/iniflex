@@ -36,7 +36,7 @@ public class Principal {
         funcionarios.forEach(System.out::println);
 
 
-        System.out.println("\n------------Lista de Funcionarios Atualizadas com aumento de 10%------------\n");
+        System.out.println("\n------------Lista de Funcionarios Atualizadas com aumento de 10% nos salarios------------\n");
         funcionarios.forEach(f -> f.setSalario(f.getSalario().multiply(BigDecimal.valueOf(1.10))));
         funcionarios.forEach(System.out::println);
 
